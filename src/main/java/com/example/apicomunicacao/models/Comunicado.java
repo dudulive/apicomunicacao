@@ -5,12 +5,15 @@ import java.time.LocalDateTime;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
+import com.example.apicomunicacao.models.enums.Formato;
 import com.sun.istack.NotNull;
 
 @Entity
@@ -35,6 +38,19 @@ public class Comunicado implements Serializable {
 
     @Column(name = "DATA_COMUNICADO", columnDefinition = "TIMESTAMP")
     private LocalDateTime dataEnvio;
+
+    @NotNull
+	@Column(name = "FORMATO_COMUNICADO")
+    @Enumerated(EnumType.STRING)
+    private Formato formato;
+
+    public Formato getFormato() {
+        return this.formato;
+    }
+
+    public void setFormato(Formato formato) {
+        this.formato = formato;
+    }
 
 
     public Long getId() {
