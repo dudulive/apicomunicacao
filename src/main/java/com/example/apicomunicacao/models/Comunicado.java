@@ -85,4 +85,13 @@ public class Comunicado implements Serializable {
         this.dataEnvio = dataEnvio;
     }
 
+
+    public Comunicado(String mensagem, String destinatario, LocalDateTime dataEnvio, Formato formato) {
+        this.mensagem = mensagem;
+        this.destinatario = destinatario;
+        this.dataEnvio = dataEnvio;
+        this.formato = formato;
+    }
+
+
 }

@@ -33,7 +33,7 @@ public class ComunicadoResource {
     
 	@DeleteMapping(value = "/cancelar")
 	@ApiOperation(value = "Cancelar o comunicado.")
-	public void delete(@RequestBody Comunicado comunicado) {
+	public void cancelar(@RequestBody Comunicado comunicado) {
 		comunicadoService.excluir(comunicado);
 	}
 
