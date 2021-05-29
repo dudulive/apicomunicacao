@@ -15,6 +15,10 @@ public class ComunicadoService {
     public Comunicado salvar(Comunicado comunicado){
         return comunicadoRepository.save(comunicado);
     }
+
+    public void excluir(Comunicado comunicado){
+         comunicadoRepository.delete(comunicado);
+    }
 	
     
 }
