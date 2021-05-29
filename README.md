@@ -4,7 +4,6 @@ RESTful API de Comunicados
 > API RESTful para o aplicativo consumir e registrar essas informações de Comunicados.
 ## Tecnologias  
   
-* JWT  
 * Spring Framework (Core, JPA, JDBC, Data, Security e MVC)  
 * PostgreSQL
   
