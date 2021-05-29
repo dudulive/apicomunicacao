@@ -9,17 +9,17 @@ RESTful API de Comunicados
 * PostgreSQL
   
 ## Principais Características  
-* 1. Agendamento de envio de comunicação;
-* 2. Consulta do envio da comunicação;
-* 3. Cancelamento do envio da comunicação.
+* Agendamento de envio de comunicação;
+* Consulta do envio da comunicação;
+* Cancelamento do envio da comunicação.
 
 #### Estes endpoints precisa ter, no mínimo, os seguintes campos:
-* • Data/Hora para o envio
-* • Destinatário
-* • Mensagem a ser entregue
+* Data/Hora para o envio
+* Destinatário
+* Mensagem a ser entregue
 
 ## Os possíveis formatos de comunicação que podem ser enviados são: 
-* • email, sms, push e whatsapp
+* email, sms, push e whatsapp
   
 ## Configuração para Desenvolvimento  
 #### Pré-requisitos
