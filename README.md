@@ -17,7 +17,7 @@ RESTful API de Comunicados
 * Destinatário
 * Mensagem a ser entregue
 
-## Os possíveis formatos de comunicação que podem ser enviados são: 
+##### Os possíveis formatos de comunicação que podem ser enviados são: 
 * email, sms, push e whatsapp
   
 ## Configuração para Desenvolvimento  
