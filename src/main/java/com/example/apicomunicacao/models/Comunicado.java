@@ -93,5 +93,9 @@ public class Comunicado implements Serializable {
         this.formato = formato;
     }
 
+    public Comunicado(){
+        
+    }
+
 
 }
